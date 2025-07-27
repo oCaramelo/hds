@@ -1,0 +1,20 @@
+[
+    {   
+        "id": "101",
+        "hostname": "localhost",
+        "port": 5001,
+        "publicKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/client_1/key.pub",
+        "privateKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/client_1/key.priv",
+        "address": "0x1010000000000000000000000000000000000001",
+        "behaviour": "NONE"
+    },
+    {
+        "id": "102",
+        "hostname": "localhost",
+        "port": 5002,
+        "publicKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/client_2/key.pub",
+        "privateKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/client_2/key.priv",
+        "address": "0x1020000000000000000000000000000000000002",
+        "behaviour": "NONE"
+    }
+]

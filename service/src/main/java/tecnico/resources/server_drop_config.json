@@ -1,0 +1,45 @@
+[
+    {   
+        "id": "1",
+        "isLeader": true,
+        "hostname": "localhost",
+        "port": 3001,
+        "clientPort": 4001,
+        "publicKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/node_1/key.pub",
+        "privateKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/node_1/key.priv",
+        "behaviour": "NONE"
+    },
+    {
+        "id": "2",
+        "isLeader": false,
+        "hostname": "localhost",
+        "port": 3002,
+        "clientPort": 4002,
+        "publicKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/node_2/key.pub",
+        "privateKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/node_2/key.priv",
+        "behaviour": "DROP"
+        
+    },
+    {
+        "id": "3",
+        "isLeader": false,
+        "hostname": "localhost",
+        "port": 3003,
+        "clientPort": 4003,
+        "publicKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/node_3/key.pub",
+        "privateKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/node_3/key.priv",
+        "behaviour": "NONE"
+        
+    },
+    {
+        "id": "4",
+        "isLeader": false,
+        "hostname": "localhost",
+        "port": 3004,
+        "clientPort": 4004,
+        "publicKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/node_4/key.pub",
+        "privateKeyPath": "../shared/src/main/java/tecnico/keys/keypairs/node_4/key.priv",
+        "behaviour": "NONE"
+    }
+]
+
